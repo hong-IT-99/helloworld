@@ -6,7 +6,6 @@ export default {
    data(){
        return{
            test:'Hello world',
-           test2: '12131313'
        }
    }
 }
