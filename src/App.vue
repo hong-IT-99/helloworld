@@ -2,9 +2,9 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <hello-world msg="Welcome to Your Vue.js App"/>
-    <test />
-    <test2/>
-    <TestTest msg = "Test"/>
+    <test msg = "Test"/>
+    <!-- <test2/> --> 
+    <!-- <TestTest msg = "Test"/> -->
   </div>
 </template>
 
@@ -12,16 +12,16 @@
 <script>
 import HelloWorld from './components/HelloWorld'
 import test from './components/test'
-import test2 from './components/test'
-import TestTest from './components/test'
+// import test2 from './components/test'
+// import TestTest from './components/test'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
     test,
-    test2,
-    TestTest
+    // test2,
+    // TestTest
   }
 }
 
