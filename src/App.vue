@@ -4,6 +4,7 @@
     <hello-world msg="Welcome to Your Vue.js App"/>
     <test />
     <test2/>
+    <TestTest msg = "Test"/>
   </div>
 </template>
 
@@ -11,12 +12,16 @@
 <script>
 import HelloWorld from './components/HelloWorld'
 import test from './components/test'
+import test2 from './components/test'
+import TestTest from './components/test'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    test
+    test,
+    test2,
+    TestTest
   }
 }
 
